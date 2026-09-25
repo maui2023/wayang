@@ -7,3 +7,5 @@ No endorsement by TVmaze is implied.
 
 Wikidata film metadata: CC0 1.0. https://creativecommons.org/publicdomain/zero/1.0/
 Sources: per-record Wikidata URLs. No Commons artwork is imported.
+
+Rotten Tomatoes metadata and scores: Proprietary / Promotional. https://www.rottentomatoes.com/
