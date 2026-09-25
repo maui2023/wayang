@@ -15,12 +15,12 @@ export async function init(container) {
   }
   const intro = document.createElement('div');
   const count = Object.values(catalog.counts).reduce((sum,n) => sum+n,0);
-  intro.innerHTML = `<p class="notice">${catalog.is_demo ? 'Katalog demo · Semua tajuk, sinopsis dan rating ialah data rekaan untuk pembangunan.' : `${count} cerita sebenar · Pilihan siri TV dan anime · Sinopsis mengikut bahasa sumber.`}</p><nav class="category-links" aria-label="Kategori"><a href="browse.html">Semua cerita ↗</a>${Object.entries(catalog.counts).filter(([,n]) => n > 0).map(([type]) => `<a href="browse.html?type=${type}">${e(labels[type])}</a>`).join('')}</nav>`;
+  intro.innerHTML = `<p class="notice">${catalog.is_demo ? 'Katalog demo · Semua tajuk, sinopsis dan rating ialah data rekaan untuk pembangunan.' : `${count.toLocaleString("ms")} cerita sebenar · Filem, siri TV dan anime · Metadata mengikut sumber asal.`}</p><nav class="category-links" aria-label="Kategori"><a href="browse.html">Semua cerita ↗</a>${Object.entries(catalog.counts).filter(([,n]) => n > 0).map(([type]) => `<a href="browse.html?type=${type}">${e(labels[type])}</a>`).join('')}${['MY','ID','TH'].map((country,i)=>`<a href="browse.html?country=${country}">${['Malaysia','Indonesia','Thailand'][i]}</a>`).join('')}</nav>`;
   container.append(intro);
   for (const collection of featured.collections) {
     if (!collection.items.length) continue;
     const slot = document.createElement('div'); container.append(slot);
-    try { slot.append(section(collection.title, collection.items, `browse.html?type=${collection.type}`)); }
+    try { slot.append(section(collection.title, collection.items, `browse.html?type=${collection.type}${collection.country ? `&country=${collection.country}` : ""}`)); }
     catch (error) { showError(slot, error); }
   }
 }

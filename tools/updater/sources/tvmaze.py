@@ -9,7 +9,7 @@ from urllib.request import Request, urlopen
 
 BASE = 'https://api.tvmaze.com'
 LICENSE = 'https://creativecommons.org/licenses/by-sa/4.0/'
-LANGUAGES = {'English':'en','Japanese':'ja','Korean':'ko','Malay':'ms','German':'de','Spanish':'es','French':'fr','Chinese':'zh'}
+LANGUAGES = {'English':'en','Japanese':'ja','Korean':'ko','Malay':'ms','German':'de','Spanish':'es','French':'fr','Chinese':'zh','Indonesian':'id','Thai':'th'}
 
 class PlainText(HTMLParser):
     def __init__(self):
@@ -35,7 +35,7 @@ class Client:
     def __init__(self, opener=urlopen, sleep=time.sleep):
         self.opener, self.sleep = opener, sleep
         self.last_request = 0
-    def get(self, path):
+    def get(self, path, allow_not_found=False):
         for attempt in range(4):
             self.sleep(max(0, .6 - (time.monotonic()-self.last_request)))
             self.last_request = time.monotonic()
@@ -44,6 +44,8 @@ class Client:
                 with self.opener(request, timeout=30) as response:
                     return json.load(response)
             except HTTPError as error:
+                if error.code == 404 and allow_not_found:
+                    return None
                 if error.code not in (429,500,502,503,504) or attempt == 3:
                     raise ValueError(f'TVmaze request failed: {path} (HTTP {error.code})') from None
                 delay = error.headers.get('Retry-After', '') if error.headers else ''
@@ -81,7 +83,7 @@ def normalize(show, kind, akas=None, images=None, seasons=None):
         rating={'value':rating,'scale':10,'votes':None,'source':'TVmaze'} if rating is not None else None,
         popularity=None, runtime_minutes=None,
         series={'seasons':len(seasons) if seasons else None,'episodes':episodes,'episode_runtime_minutes':show.get('averageRuntime') or show.get('runtime')},
-        status=show.get('status'), countries=[], languages=[LANGUAGES.get(language,language)] if language else [],
+        status=show.get('status'), countries=[], broadcast_countries=sorted({country for outlet in [show.get('network'),show.get('webChannel')] if outlet for country in [(outlet.get('country') or {}).get('code')] if country}), languages=[LANGUAGES.get(language,language)] if language else [],
         external_ids=external, trailer=None,
         sources=[{'provider':'tvmaze','provider_id':ident,'url':show['url'],'license':'CC BY-SA 4.0','license_url':LICENSE}],
         updated_at=datetime.fromtimestamp(show['updated'], timezone.utc).isoformat().replace('+00:00','Z'))
@@ -101,4 +103,45 @@ def fetch(config, client=None):
             raise ValueError('TVmaze returned an unexpected identity')
         records.append(normalize(show, kind, client.get(f'/shows/{ident}/akas'), client.get(f'/shows/{ident}/images'), client.get(f'/shows/{ident}/seasons')))
         print(f'TVmaze: {show["name"]}', flush=True)
+    return records
+
+
+def fetch_all(config, cache_dir, client=None):
+    """Walk the official show index until its documented terminal 404."""
+    from pathlib import Path
+    client = client or Client()
+    cache_dir = Path(cache_dir); cache_dir.mkdir(parents=True, exist_ok=True)
+    anime_ids = {item['id'] for item in config['shows'] if item['type'] == 'anime'}
+    records = []
+    page = 0
+    while True:
+        path = cache_dir / f'page-{page:04}.json'
+        if path.exists() and time.time() - path.stat().st_mtime < 86400:
+            shows = json.loads(path.read_text())
+        else:
+            shows = client.get(f'/shows?page={page}', allow_not_found=True)
+            if shows is not None:
+                import os
+                temporary = path.with_name(f'{path.stem}.{os.getpid()}.tmp')
+                try:
+                    temporary.write_text(json.dumps(shows, ensure_ascii=False))
+                    temporary.replace(path)
+                except Exception:
+                    if temporary.exists():
+                        temporary.unlink(missing_ok=True)
+                    if path.exists():
+                        shows = json.loads(path.read_text())
+                    else:
+                        raise
+        if shows is None:
+            break
+        if not isinstance(shows,list):
+            raise ValueError(f'Unexpected TVmaze index page {page}')
+        for show in shows:
+            kind = 'anime' if show.get('type') == 'Animation' else 'tv'
+            records.append(normalize(show,kind))
+        if page % 10 == 0:
+            print(f'TVmaze index: page {page}, {len(records):,} titles', flush=True)
+        page += 1
+    print(f'TVmaze index complete: {page} pages, {len(records):,} titles', flush=True)
     return records
