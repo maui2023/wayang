@@ -1,0 +1,6 @@
+TVmaze metadata and MovieHub adaptations: CC BY-SA 4.0
+https://creativecommons.org/licenses/by-sa/4.0/
+Source: https://www.tvmaze.com/ and per-record source URLs.
+Changes: normalized schema, plain-text summaries, curated selection and anime classification.
+Artwork URLs reference the TVmaze CDN; no artwork is mirrored here.
+No endorsement by TVmaze is implied.

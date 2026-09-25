@@ -1,0 +1,830 @@
+[
+  {
+    "aliases": [
+      "Bad Biari",
+      "Bien Chat",
+      "Breaking Bad - Reazioni collaterali",
+      "Bręstantis blogis",
+      "Bureikingu baddo",
+      "Halvale Teele",
+      "Kriva pota",
+      "Na putu prema dolje",
+      "Perníkový tatko",
+      "Perníkový táta",
+      "Ruptura Total",
+      "Shover shurot",
+      "Totál szívás",
+      "Čista hemija",
+      "Во все тяжкие",
+      "Пуститися берега",
+      "שובר שורות",
+      "إختلال ضال",
+      "绝命毒师 / 絕命毒師",
+      "브레이킹 배드"
+    ],
+    "backdrop": {
+      "source": "tvmaze",
+      "url": "https://static.tvmaze.com/uploads/images/original_untouched/219/547904.jpg"
+    },
+    "countries": [],
+    "external_ids": {
+      "imdb": "tt0903747",
+      "thetvdb": "81189",
+      "tvmaze": "169",
+      "tvrage": "18164"
+    },
+    "genres": [
+      "crime",
+      "drama",
+      "thriller"
+    ],
+    "id": "tv-tvmaze-169",
+    "languages": [
+      "en"
+    ],
+    "original_title": null,
+    "overview": "Breaking Bad follows protagonist Walter White, a chemistry teacher who lives in New Mexico with his wife and teenage son who has cerebral palsy. White is diagnosed with Stage III cancer and given a prognosis of two years left to live. With a new sense of fearlessness based on his medical prognosis, and a desire to secure his family's financial security, White chooses to enter a dangerous world of drugs and crime and ascends to power in this world. The series explores how a fatal diagnosis such as White's releases a typical man from the daily concerns and constraints of normal society and follows his transformation from mild family man to a kingpin of the drug trade.",
+    "popularity": null,
+    "poster": {
+      "original_url": "https://static.tvmaze.com/uploads/images/original_untouched/501/1253519.jpg",
+      "source": "tvmaze",
+      "url": "https://static.tvmaze.com/uploads/images/medium_portrait/501/1253519.jpg"
+    },
+    "rating": {
+      "scale": 10,
+      "source": "TVmaze",
+      "value": 9.2,
+      "votes": null
+    },
+    "release_date": "2008-01-20",
+    "runtime_minutes": null,
+    "schema_version": 1,
+    "series": {
+      "episode_runtime_minutes": 60,
+      "episodes": 62,
+      "seasons": 5
+    },
+    "sources": [
+      {
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "provider": "tvmaze",
+        "provider_id": "169",
+        "url": "https://www.tvmaze.com/shows/169/breaking-bad"
+      }
+    ],
+    "status": "Ended",
+    "title": "Breaking Bad",
+    "trailer": null,
+    "type": "tv",
+    "updated_at": "2026-01-23T19:53:48Z",
+    "year": 2008
+  },
+  {
+    "aliases": [
+      "Karanlık",
+      "Sötétség",
+      "Întuneric",
+      "Пітьма",
+      "Тьма"
+    ],
+    "backdrop": {
+      "source": "tvmaze",
+      "url": "https://static.tvmaze.com/uploads/images/original_untouched/219/547866.jpg"
+    },
+    "countries": [],
+    "external_ids": {
+      "imdb": "tt5753856",
+      "thetvdb": "334824",
+      "tvmaze": "17861"
+    },
+    "genres": [
+      "drama",
+      "science-fiction",
+      "supernatural"
+    ],
+    "id": "tv-tvmaze-17861",
+    "languages": [
+      "de"
+    ],
+    "original_title": null,
+    "overview": "A family saga with a supernatural twist, Dark is set in a German town in present day where the disappearance of two young children exposes the double lives and fractured relationships among four families.",
+    "popularity": null,
+    "poster": {
+      "original_url": "https://static.tvmaze.com/uploads/images/original_untouched/504/1262352.jpg",
+      "source": "tvmaze",
+      "url": "https://static.tvmaze.com/uploads/images/medium_portrait/504/1262352.jpg"
+    },
+    "rating": {
+      "scale": 10,
+      "source": "TVmaze",
+      "value": 8.2,
+      "votes": null
+    },
+    "release_date": "2017-12-01",
+    "runtime_minutes": null,
+    "schema_version": 1,
+    "series": {
+      "episode_runtime_minutes": 56,
+      "episodes": 26,
+      "seasons": 3
+    },
+    "sources": [
+      {
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "provider": "tvmaze",
+        "provider_id": "17861",
+        "url": "https://www.tvmaze.com/shows/17861/dark"
+      }
+    ],
+    "status": "Ended",
+    "title": "Dark",
+    "trailer": null,
+    "type": "tv",
+    "updated_at": "2024-02-24T15:45:54Z",
+    "year": 2017
+  },
+  {
+    "aliases": [
+      "Bagulhos Sinistros",
+      "Cậu Bé Mất Tích",
+      "Fremmede Ting",
+      "Keisti dalykai",
+      "Különös dolgok",
+      "Montauk",
+      "Podivné věci",
+      "Tuhaf Şeyler",
+      "Дивні дива",
+      "Крайне странные события",
+      "Очень странные дела",
+      "Странни неща",
+      "Чудни Нешта",
+      "Чудније ствари",
+      "דברים מוזרים",
+      "ストレンジャー・シングス",
+      "ストレンジャー・シングス 未知の世界",
+      "怪奇物語",
+      "怪奇物语",
+      "기묘한 이야기"
+    ],
+    "backdrop": {
+      "source": "tvmaze",
+      "url": "https://static.tvmaze.com/uploads/images/original_untouched/70/175852.jpg"
+    },
+    "countries": [],
+    "external_ids": {
+      "imdb": "tt4574334",
+      "thetvdb": "305288",
+      "tvmaze": "2993",
+      "tvrage": "48493"
+    },
+    "genres": [
+      "drama",
+      "horror",
+      "science-fiction"
+    ],
+    "id": "tv-tvmaze-2993",
+    "languages": [
+      "en"
+    ],
+    "original_title": null,
+    "overview": "When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces and one strange little girl.",
+    "popularity": null,
+    "poster": {
+      "original_url": "https://static.tvmaze.com/uploads/images/original_untouched/595/1489169.jpg",
+      "source": "tvmaze",
+      "url": "https://static.tvmaze.com/uploads/images/medium_portrait/595/1489169.jpg"
+    },
+    "rating": {
+      "scale": 10,
+      "source": "TVmaze",
+      "value": 8.4,
+      "votes": null
+    },
+    "release_date": "2016-07-15",
+    "runtime_minutes": null,
+    "schema_version": 1,
+    "series": {
+      "episode_runtime_minutes": 65,
+      "episodes": 42,
+      "seasons": 5
+    },
+    "sources": [
+      {
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "provider": "tvmaze",
+        "provider_id": "2993",
+        "url": "https://www.tvmaze.com/shows/2993/stranger-things"
+      }
+    ],
+    "status": "Ended",
+    "title": "Stranger Things",
+    "trailer": null,
+    "type": "tv",
+    "updated_at": "2026-01-01T22:22:42Z",
+    "year": 2016
+  },
+  {
+    "aliases": [
+      "Cernobîl",
+      "Csernobil",
+      "Czarnobyl",
+      "Tsjernobyl",
+      "Tsornobõl",
+      "Tšernobyl",
+      "Çernobil",
+      "Černobiļa",
+      "Černobyl",
+      "Černobylis",
+      "Τσέρνομπιλ",
+      "Чарнобыль",
+      "Чернобил",
+      "Чернобиљ",
+      "Чернобыль",
+      "Чорнобиль",
+      "צ'רנוביל",
+      "チェルノブイリ",
+      "切尔诺贝利",
+      "체르노빌"
+    ],
+    "backdrop": {
+      "source": "tvmaze",
+      "url": "https://static.tvmaze.com/uploads/images/original_untouched/183/458073.jpg"
+    },
+    "countries": [],
+    "external_ids": {
+      "imdb": "tt7366338",
+      "thetvdb": "360893",
+      "tvmaze": "30770"
+    },
+    "genres": [
+      "drama",
+      "history"
+    ],
+    "id": "tv-tvmaze-30770",
+    "languages": [
+      "en"
+    ],
+    "original_title": null,
+    "overview": "Chernobyl dramatizes the true story of one of the worst man-made catastrophes in history and tells of the brave men and women who sacrificed to save Europe from unimaginable disaster. The miniseries focuses on the heartbreaking scope of the nuclear plant disaster that occurred in Ukraine in April 1986, revealing how and why it happened and telling the shocking, remarkable stories of the heroes who fought and fell.",
+    "popularity": null,
+    "poster": {
+      "original_url": "https://static.tvmaze.com/uploads/images/original_untouched/193/482599.jpg",
+      "source": "tvmaze",
+      "url": "https://static.tvmaze.com/uploads/images/medium_portrait/193/482599.jpg"
+    },
+    "rating": {
+      "scale": 10,
+      "source": "TVmaze",
+      "value": 8.9,
+      "votes": null
+    },
+    "release_date": "2019-05-06",
+    "runtime_minutes": null,
+    "schema_version": 1,
+    "series": {
+      "episode_runtime_minutes": 70,
+      "episodes": 5,
+      "seasons": 1
+    },
+    "sources": [
+      {
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "provider": "tvmaze",
+        "provider_id": "30770",
+        "url": "https://www.tvmaze.com/shows/30770/chernobyl"
+      }
+    ],
+    "status": "Ended",
+    "title": "Chernobyl",
+    "trailer": null,
+    "type": "tv",
+    "updated_at": "2022-07-12T20:34:37Z",
+    "year": 2019
+  },
+  {
+    "aliases": [
+      "A sógun",
+      "Xógun: A Gloriosa Saga do Japão",
+      "Сёгун",
+      "Шьоґун"
+    ],
+    "backdrop": {
+      "source": "tvmaze",
+      "url": "https://static.tvmaze.com/uploads/images/original_untouched/505/1262957.jpg"
+    },
+    "countries": [],
+    "external_ids": {
+      "imdb": "tt2788316",
+      "thetvdb": "392573",
+      "tvmaze": "37336"
+    },
+    "genres": [
+      "adventure",
+      "drama",
+      "history"
+    ],
+    "id": "tv-tvmaze-37336",
+    "languages": [
+      "en"
+    ],
+    "original_title": null,
+    "overview": "Shōgun is set in Japan in the year 1600 at the dawn of a century-defining civil war. Lord Yoshii Toranaga is fighting for his life as his enemies on the Council of Regents unite against him, when a mysterious European ship is found marooned in a nearby fishing village.",
+    "popularity": null,
+    "poster": {
+      "original_url": "https://static.tvmaze.com/uploads/images/original_untouched/506/1265637.jpg",
+      "source": "tvmaze",
+      "url": "https://static.tvmaze.com/uploads/images/medium_portrait/506/1265637.jpg"
+    },
+    "rating": {
+      "scale": 10,
+      "source": "TVmaze",
+      "value": 8.5,
+      "votes": null
+    },
+    "release_date": "2024-02-27",
+    "runtime_minutes": null,
+    "schema_version": 1,
+    "series": {
+      "episode_runtime_minutes": 59,
+      "episodes": null,
+      "seasons": 3
+    },
+    "sources": [
+      {
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "provider": "tvmaze",
+        "provider_id": "37336",
+        "url": "https://www.tvmaze.com/shows/37336/shogun"
+      }
+    ],
+    "status": "Running",
+    "title": "Shōgun",
+    "trailer": null,
+    "type": "tv",
+    "updated_at": "2026-08-06T17:54:38Z",
+    "year": 2024
+  },
+  {
+    "aliases": [
+      "Cuttlefish Game",
+      "Igra lignje",
+      "Nyerd meg az életed",
+      "Ojingeo Game",
+      "Round Six",
+      "Squid Game 2 - (S2)",
+      "Squid Game 3 - (S3)",
+      "Гра в кальмара",
+      "Игра в кальмара",
+      "Игра на калмари",
+      "오징어 게임"
+    ],
+    "backdrop": {
+      "source": "tvmaze",
+      "url": "https://static.tvmaze.com/uploads/images/original_untouched/352/881314.jpg"
+    },
+    "countries": [],
+    "external_ids": {
+      "imdb": "tt10919420",
+      "thetvdb": "383275",
+      "tvmaze": "43687"
+    },
+    "genres": [
+      "drama",
+      "mystery",
+      "thriller"
+    ],
+    "id": "tv-tvmaze-43687",
+    "languages": [
+      "ko"
+    ],
+    "original_title": null,
+    "overview": "Hundreds of cash-strapped players accept a strange invitation to compete in children's games. Inside, a tempting prize awaits — with deadly high stakes.",
+    "popularity": null,
+    "poster": {
+      "original_url": "https://static.tvmaze.com/uploads/images/original_untouched/576/1440521.jpg",
+      "source": "tvmaze",
+      "url": "https://static.tvmaze.com/uploads/images/medium_portrait/576/1440521.jpg"
+    },
+    "rating": {
+      "scale": 10,
+      "source": "TVmaze",
+      "value": 7.9,
+      "votes": null
+    },
+    "release_date": "2021-09-17",
+    "runtime_minutes": null,
+    "schema_version": 1,
+    "series": {
+      "episode_runtime_minutes": 59,
+      "episodes": 22,
+      "seasons": 3
+    },
+    "sources": [
+      {
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "provider": "tvmaze",
+        "provider_id": "43687",
+        "url": "https://www.tvmaze.com/shows/43687/squid-game"
+      }
+    ],
+    "status": "Ended",
+    "title": "Squid Game",
+    "trailer": null,
+    "type": "tv",
+    "updated_at": "2026-02-20T19:03:27Z",
+    "year": 2021
+  },
+  {
+    "aliases": [
+      "Különválás",
+      "Rozdzielenie",
+      "Ruptura",
+      "Scissione",
+      "Поділ",
+      "Разделение",
+      "Розрив"
+    ],
+    "backdrop": {
+      "source": "tvmaze",
+      "url": "https://static.tvmaze.com/uploads/images/original_untouched/384/960581.jpg"
+    },
+    "countries": [],
+    "external_ids": {
+      "imdb": "tt11280740",
+      "thetvdb": "371980",
+      "tvmaze": "44933"
+    },
+    "genres": [
+      "drama",
+      "mystery",
+      "science-fiction"
+    ],
+    "id": "tv-tvmaze-44933",
+    "languages": [
+      "en"
+    ],
+    "original_title": null,
+    "overview": "Mark Scout leads a team at Lumon Industries, whose employees have undergone a severance procedure, which surgically divides their memories between their work and personal lives. This daring experiment in \"work-life balance\" is called into question as Mark finds himself at the center of an unraveling mystery that will force him to confront the true nature of his work… and of himself.",
+    "popularity": null,
+    "poster": {
+      "original_url": "https://static.tvmaze.com/uploads/images/original_untouched/548/1371406.jpg",
+      "source": "tvmaze",
+      "url": "https://static.tvmaze.com/uploads/images/medium_portrait/548/1371406.jpg"
+    },
+    "rating": {
+      "scale": 10,
+      "source": "TVmaze",
+      "value": 7.6,
+      "votes": null
+    },
+    "release_date": "2022-02-18",
+    "runtime_minutes": null,
+    "schema_version": 1,
+    "series": {
+      "episode_runtime_minutes": 49,
+      "episodes": null,
+      "seasons": 3
+    },
+    "sources": [
+      {
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "provider": "tvmaze",
+        "provider_id": "44933",
+        "url": "https://www.tvmaze.com/shows/44933/severance"
+      }
+    ],
+    "status": "Running",
+    "title": "Severance",
+    "trailer": null,
+    "type": "tv",
+    "updated_at": "2026-09-01T11:05:46Z",
+    "year": 2022
+  },
+  {
+    "aliases": [
+      "Los últimos de nosotros",
+      "Posledný z nás",
+      "TLoU",
+      "Одни из нас",
+      "Останні з нас",
+      "Последние из нас",
+      "Последните оцелели",
+      "Մեզնից վերջինները",
+      "آخرین ما",
+      "الأخير منا"
+    ],
+    "backdrop": {
+      "source": "tvmaze",
+      "url": "https://static.tvmaze.com/uploads/images/original_untouched/429/1072778.jpg"
+    },
+    "countries": [],
+    "external_ids": {
+      "imdb": "tt3581920",
+      "thetvdb": "392256",
+      "tvmaze": "46562"
+    },
+    "genres": [
+      "action",
+      "drama",
+      "horror"
+    ],
+    "id": "tv-tvmaze-46562",
+    "languages": [
+      "en"
+    ],
+    "original_title": null,
+    "overview": "After a global pandemic destroys civilization, a hardened survivor takes charge of a 14-year-old girl who may be humanity's last hope.",
+    "popularity": null,
+    "poster": {
+      "original_url": "https://static.tvmaze.com/uploads/images/original_untouched/563/1409008.jpg",
+      "source": "tvmaze",
+      "url": "https://static.tvmaze.com/uploads/images/medium_portrait/563/1409008.jpg"
+    },
+    "rating": {
+      "scale": 10,
+      "source": "TVmaze",
+      "value": 7.9,
+      "votes": null
+    },
+    "release_date": "2023-01-15",
+    "runtime_minutes": null,
+    "schema_version": 1,
+    "series": {
+      "episode_runtime_minutes": 61,
+      "episodes": null,
+      "seasons": 3
+    },
+    "sources": [
+      {
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "provider": "tvmaze",
+        "provider_id": "46562",
+        "url": "https://www.tvmaze.com/shows/46562/the-last-of-us"
+      }
+    ],
+    "status": "Running",
+    "title": "The Last of Us",
+    "trailer": null,
+    "type": "tv",
+    "updated_at": "2025-08-27T22:50:44Z",
+    "year": 2023
+  },
+  {
+    "aliases": [
+      "A Fehér Lótusz",
+      "Белый лотос"
+    ],
+    "backdrop": {
+      "source": "tvmaze",
+      "url": "https://static.tvmaze.com/uploads/images/original_untouched/334/835010.jpg"
+    },
+    "countries": [],
+    "external_ids": {
+      "imdb": "tt13406094",
+      "thetvdb": "390430",
+      "tvmaze": "51394"
+    },
+    "genres": [
+      "comedy",
+      "drama"
+    ],
+    "id": "tv-tvmaze-51394",
+    "languages": [
+      "en"
+    ],
+    "original_title": null,
+    "overview": "A social satire set at an exclusive tropical resort, The White Lotus follows the exploits of various guests and employees over the span of a week.",
+    "popularity": null,
+    "poster": {
+      "original_url": "https://static.tvmaze.com/uploads/images/original_untouched/557/1393876.jpg",
+      "source": "tvmaze",
+      "url": "https://static.tvmaze.com/uploads/images/medium_portrait/557/1393876.jpg"
+    },
+    "rating": {
+      "scale": 10,
+      "source": "TVmaze",
+      "value": 6.9,
+      "votes": null
+    },
+    "release_date": "2021-07-11",
+    "runtime_minutes": null,
+    "schema_version": 1,
+    "series": {
+      "episode_runtime_minutes": 64,
+      "episodes": null,
+      "seasons": 4
+    },
+    "sources": [
+      {
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "provider": "tvmaze",
+        "provider_id": "51394",
+        "url": "https://www.tvmaze.com/shows/51394/the-white-lotus"
+      }
+    ],
+    "status": "Running",
+    "title": "The White Lotus",
+    "trailer": null,
+    "type": "tv",
+    "updated_at": "2025-04-15T21:51:30Z",
+    "year": 2021
+  },
+  {
+    "aliases": [
+      "Star Wars: Andor"
+    ],
+    "backdrop": {
+      "source": "tvmaze",
+      "url": "https://static.tvmaze.com/uploads/images/original_untouched/412/1030743.jpg"
+    },
+    "countries": [],
+    "external_ids": {
+      "imdb": "tt9253284",
+      "thetvdb": "393189",
+      "tvmaze": "52341"
+    },
+    "genres": [
+      "espionage",
+      "science-fiction",
+      "thriller"
+    ],
+    "id": "tv-tvmaze-52341",
+    "languages": [
+      "en"
+    ],
+    "original_title": null,
+    "overview": "Andor explores a new perspective from the Star Wars galaxy, focusing on Cassian Andor's journey to discover the difference he can make. The series brings forward the tale of the burgeoning rebellion against the Empire and how people and planets became involved. It's an era filled with danger, deception and intrigue where Cassian will embark on the path that is destined to turn him into a rebel hero.",
+    "popularity": null,
+    "poster": {
+      "original_url": "https://static.tvmaze.com/uploads/images/original_untouched/564/1411766.jpg",
+      "source": "tvmaze",
+      "url": "https://static.tvmaze.com/uploads/images/medium_portrait/564/1411766.jpg"
+    },
+    "rating": {
+      "scale": 10,
+      "source": "TVmaze",
+      "value": 8,
+      "votes": null
+    },
+    "release_date": "2022-09-21",
+    "runtime_minutes": null,
+    "schema_version": 1,
+    "series": {
+      "episode_runtime_minutes": 48,
+      "episodes": 24,
+      "seasons": 2
+    },
+    "sources": [
+      {
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "provider": "tvmaze",
+        "provider_id": "52341",
+        "url": "https://www.tvmaze.com/shows/52341/andor"
+      }
+    ],
+    "status": "Ended",
+    "title": "Andor",
+    "trailer": null,
+    "type": "tv",
+    "updated_at": "2026-06-04T14:11:12Z",
+    "year": 2022
+  },
+  {
+    "aliases": [
+      "The Addams Family: Wednesday",
+      "Венздей",
+      "Уензди",
+      "Уэнсдэй"
+    ],
+    "backdrop": {
+      "source": "tvmaze",
+      "url": "https://static.tvmaze.com/uploads/images/original_untouched/423/1059627.jpg"
+    },
+    "countries": [],
+    "external_ids": {
+      "imdb": "tt13443470",
+      "thetvdb": "397060",
+      "tvmaze": "53647"
+    },
+    "genres": [
+      "comedy",
+      "mystery",
+      "supernatural"
+    ],
+    "id": "tv-tvmaze-53647",
+    "languages": [
+      "en"
+    ],
+    "original_title": null,
+    "overview": "Smart, sarcastic and a little dead inside, Wednesday Addams investigates a murder spree while making new friends — and foes — at Nevermore Academy.",
+    "popularity": null,
+    "poster": {
+      "original_url": "https://static.tvmaze.com/uploads/images/original_untouched/586/1466410.jpg",
+      "source": "tvmaze",
+      "url": "https://static.tvmaze.com/uploads/images/medium_portrait/586/1466410.jpg"
+    },
+    "rating": {
+      "scale": 10,
+      "source": "TVmaze",
+      "value": 7.9,
+      "votes": null
+    },
+    "release_date": "2022-11-23",
+    "runtime_minutes": null,
+    "schema_version": 1,
+    "series": {
+      "episode_runtime_minutes": 54,
+      "episodes": null,
+      "seasons": 3
+    },
+    "sources": [
+      {
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "provider": "tvmaze",
+        "provider_id": "53647",
+        "url": "https://www.tvmaze.com/shows/53647/wednesday"
+      }
+    ],
+    "status": "Running",
+    "title": "Wednesday",
+    "trailer": null,
+    "type": "tv",
+    "updated_at": "2026-08-08T22:19:58Z",
+    "year": 2022
+  },
+  {
+    "aliases": [
+      "A mackó",
+      "O Urso",
+      "Ведмідь",
+      "Медведь"
+    ],
+    "backdrop": {
+      "source": "tvmaze",
+      "url": "https://static.tvmaze.com/uploads/images/original_untouched/413/1034281.jpg"
+    },
+    "countries": [],
+    "external_ids": {
+      "imdb": "tt14452776",
+      "thetvdb": "403294",
+      "tvmaze": "54198"
+    },
+    "genres": [
+      "comedy",
+      "drama",
+      "food"
+    ],
+    "id": "tv-tvmaze-54198",
+    "languages": [
+      "en"
+    ],
+    "original_title": null,
+    "overview": "Carmy, a young fine-dining chef, comes home to Chicago to run his family sandwich shop. As he fights to transform the shop and himself, he works alongside a rough-around-the-edges crew that ultimately reveal themselves as his chosen family.",
+    "popularity": null,
+    "poster": {
+      "original_url": "https://static.tvmaze.com/uploads/images/original_untouched/629/1574642.jpg",
+      "source": "tvmaze",
+      "url": "https://static.tvmaze.com/uploads/images/medium_portrait/629/1574642.jpg"
+    },
+    "rating": {
+      "scale": 10,
+      "source": "TVmaze",
+      "value": 7.4,
+      "votes": null
+    },
+    "release_date": "2022-06-23",
+    "runtime_minutes": null,
+    "schema_version": 1,
+    "series": {
+      "episode_runtime_minutes": 35,
+      "episodes": 46,
+      "seasons": 5
+    },
+    "sources": [
+      {
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "provider": "tvmaze",
+        "provider_id": "54198",
+        "url": "https://www.tvmaze.com/shows/54198/the-bear"
+      }
+    ],
+    "status": "Ended",
+    "title": "The Bear",
+    "trailer": null,
+    "type": "tv",
+    "updated_at": "2026-06-30T16:14:32Z",
+    "year": 2022
+  }
+]

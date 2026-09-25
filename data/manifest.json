@@ -1,0 +1,69 @@
+{
+  "attributions": [
+    {
+      "changes": "Metadata normalized; summaries converted to plain text; selected anime classified by MovieHub.",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "name": "TVmaze",
+      "url": "https://www.tvmaze.com/"
+    }
+  ],
+  "chunks": {
+    "anime": [
+      {
+        "bytes": 17417,
+        "count": 8,
+        "ids": [
+          "anime-tvmaze-2071",
+          "anime-tvmaze-40",
+          "anime-tvmaze-41469",
+          "anime-tvmaze-4201",
+          "anime-tvmaze-48450",
+          "anime-tvmaze-59698",
+          "anime-tvmaze-69956",
+          "anime-tvmaze-919"
+        ],
+        "path": "data/anime/0001.json"
+      }
+    ],
+    "movie": [],
+    "tv": [
+      {
+        "bytes": 23924,
+        "count": 12,
+        "ids": [
+          "tv-tvmaze-169",
+          "tv-tvmaze-17861",
+          "tv-tvmaze-2993",
+          "tv-tvmaze-30770",
+          "tv-tvmaze-37336",
+          "tv-tvmaze-43687",
+          "tv-tvmaze-44933",
+          "tv-tvmaze-46562",
+          "tv-tvmaze-51394",
+          "tv-tvmaze-52341",
+          "tv-tvmaze-53647",
+          "tv-tvmaze-54198"
+        ],
+        "path": "data/tv/0001.json"
+      }
+    ]
+  },
+  "counts": {
+    "anime": 8,
+    "movie": 0,
+    "tv": 12
+  },
+  "dataset_version": "045bee5e6abca9d3",
+  "files": {
+    "featured": "data/featured.json",
+    "genres": "data/genres.json",
+    "search_index": "data/search-index.json"
+  },
+  "generated_at": "2026-09-01T11:05:46Z",
+  "is_demo": false,
+  "providers": [
+    "tvmaze"
+  ],
+  "schema_version": 1
+}

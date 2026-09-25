@@ -1,0 +1,106 @@
+{
+  "provider": "tvmaze",
+  "classification": "Explicit curated anime IDs; adapter also requires TVmaze type Animation. Language alone never determines type.",
+  "shows": [
+    {
+      "id": 44933,
+      "title": "Severance",
+      "type": "tv"
+    },
+    {
+      "id": 169,
+      "title": "Breaking Bad",
+      "type": "tv"
+    },
+    {
+      "id": 2993,
+      "title": "Stranger Things",
+      "type": "tv"
+    },
+    {
+      "id": 46562,
+      "title": "The Last of Us",
+      "type": "tv"
+    },
+    {
+      "id": 54198,
+      "title": "The Bear",
+      "type": "tv"
+    },
+    {
+      "id": 37336,
+      "title": "Shōgun",
+      "type": "tv"
+    },
+    {
+      "id": 17861,
+      "title": "Dark",
+      "type": "tv"
+    },
+    {
+      "id": 30770,
+      "title": "Chernobyl",
+      "type": "tv"
+    },
+    {
+      "id": 51394,
+      "title": "The White Lotus",
+      "type": "tv"
+    },
+    {
+      "id": 53647,
+      "title": "Wednesday",
+      "type": "tv"
+    },
+    {
+      "id": 52341,
+      "title": "Andor",
+      "type": "tv"
+    },
+    {
+      "id": 43687,
+      "title": "Squid Game",
+      "type": "tv"
+    },
+    {
+      "id": 919,
+      "title": "Attack on Titan",
+      "type": "anime"
+    },
+    {
+      "id": 40,
+      "title": "Death Note",
+      "type": "anime"
+    },
+    {
+      "id": 2071,
+      "title": "Fullmetal Alchemist: Brotherhood",
+      "type": "anime"
+    },
+    {
+      "id": 41469,
+      "title": "Demon Slayer",
+      "type": "anime"
+    },
+    {
+      "id": 48450,
+      "title": "Jujutsu Kaisen",
+      "type": "anime"
+    },
+    {
+      "id": 69956,
+      "title": "Frieren: Beyond Journey's End",
+      "type": "anime"
+    },
+    {
+      "id": 4201,
+      "title": "One-Punch Man",
+      "type": "anime"
+    },
+    {
+      "id": 59698,
+      "title": "Spy×Family",
+      "type": "anime"
+    }
+  ]
+}

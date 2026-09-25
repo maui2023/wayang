@@ -1,0 +1,13 @@
+PRD.md
+DEVELOPER.md
+.env
+# Local configuration and updater staging
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+.catalog-stage-*/
+.data-backup/
+tests/
+dist/
+build/

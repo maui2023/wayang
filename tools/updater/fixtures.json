@@ -1,0 +1,827 @@
+[
+  {
+    "schema_version": 1,
+    "id": "movie-sample-001",
+    "type": "movie",
+    "title": "Beyond the Blue",
+    "original_title": "Beyond the Blue",
+    "aliases": [
+      "Di Sebalik Biru"
+    ],
+    "year": 2026,
+    "release_date": "2026-06-12",
+    "overview": "Di Sebalik Biru mengikuti perjalanan seorang pencari cerita yang menemui rahsia tidak dijangka. Di antara persahabatan, pilihan dan perubahan, satu penemuan kecil membuka dunia baharu. Ini ialah sinopsis rekaan untuk demonstrasi MovieHub.",
+    "genres": [
+      "sci-fi"
+    ],
+    "poster": {
+      "url": "assets/img/movie-sample-001.svg",
+      "source": "original-fixture"
+    },
+    "backdrop": null,
+    "rating": {
+      "value": 7.1,
+      "scale": 10,
+      "votes": 120,
+      "source": "fixture (rekaan)"
+    },
+    "popularity": 100,
+    "runtime_minutes": 110,
+    "series": null,
+    "status": "released",
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "external_ids": {},
+    "trailer": null,
+    "sources": [
+      {
+        "provider": "original-fixture",
+        "provider_id": "1"
+      }
+    ],
+    "updated_at": "2026-09-25T00:00:00Z"
+  },
+  {
+    "schema_version": 1,
+    "id": "movie-sample-002",
+    "type": "movie",
+    "title": "Senja di Kota",
+    "original_title": "Senja di Kota",
+    "aliases": [
+      "Senja di Kota"
+    ],
+    "year": 2025,
+    "release_date": "2025-06-12",
+    "overview": "Senja di Kota mengikuti perjalanan seorang pencari cerita yang menemui rahsia tidak dijangka. Di antara persahabatan, pilihan dan perubahan, satu penemuan kecil membuka dunia baharu. Ini ialah sinopsis rekaan untuk demonstrasi MovieHub.",
+    "genres": [
+      "drama"
+    ],
+    "poster": {
+      "url": "assets/img/movie-sample-002.svg",
+      "source": "original-fixture"
+    },
+    "backdrop": null,
+    "rating": {
+      "value": 7.3,
+      "scale": 10,
+      "votes": 143,
+      "source": "fixture (rekaan)"
+    },
+    "popularity": 99,
+    "runtime_minutes": 111,
+    "series": null,
+    "status": "released",
+    "countries": [
+      "MY"
+    ],
+    "languages": [
+      "ms"
+    ],
+    "external_ids": {},
+    "trailer": null,
+    "sources": [
+      {
+        "provider": "original-fixture",
+        "provider_id": "2"
+      }
+    ],
+    "updated_at": "2026-09-25T00:00:00Z"
+  },
+  {
+    "schema_version": 1,
+    "id": "movie-sample-003",
+    "type": "movie",
+    "title": "The Last Signal",
+    "original_title": "The Last Signal",
+    "aliases": [
+      "Isyarat Terakhir"
+    ],
+    "year": 2024,
+    "release_date": "2024-06-12",
+    "overview": "Isyarat Terakhir mengikuti perjalanan seorang pencari cerita yang menemui rahsia tidak dijangka. Di antara persahabatan, pilihan dan perubahan, satu penemuan kecil membuka dunia baharu. Ini ialah sinopsis rekaan untuk demonstrasi MovieHub.",
+    "genres": [
+      "thriller"
+    ],
+    "poster": {
+      "url": "assets/img/movie-sample-003.svg",
+      "source": "original-fixture"
+    },
+    "backdrop": null,
+    "rating": {
+      "value": 7.5,
+      "scale": 10,
+      "votes": 166,
+      "source": "fixture (rekaan)"
+    },
+    "popularity": 98,
+    "runtime_minutes": 112,
+    "series": null,
+    "status": "released",
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "external_ids": {},
+    "trailer": null,
+    "sources": [
+      {
+        "provider": "original-fixture",
+        "provider_id": "3"
+      }
+    ],
+    "updated_at": "2026-09-25T00:00:00Z"
+  },
+  {
+    "schema_version": 1,
+    "id": "movie-sample-004",
+    "type": "movie",
+    "title": "Paper Planets",
+    "original_title": "Paper Planets",
+    "aliases": [
+      "Planet Kertas"
+    ],
+    "year": 2026,
+    "release_date": "2026-06-12",
+    "overview": "Planet Kertas mengikuti perjalanan seorang pencari cerita yang menemui rahsia tidak dijangka. Di antara persahabatan, pilihan dan perubahan, satu penemuan kecil membuka dunia baharu. Ini ialah sinopsis rekaan untuk demonstrasi MovieHub.",
+    "genres": [
+      "adventure"
+    ],
+    "poster": {
+      "url": "assets/img/movie-sample-004.svg",
+      "source": "original-fixture"
+    },
+    "backdrop": null,
+    "rating": {
+      "value": 7.7,
+      "scale": 10,
+      "votes": 189,
+      "source": "fixture (rekaan)"
+    },
+    "popularity": 97,
+    "runtime_minutes": 113,
+    "series": null,
+    "status": "released",
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "external_ids": {},
+    "trailer": null,
+    "sources": [
+      {
+        "provider": "original-fixture",
+        "provider_id": "4"
+      }
+    ],
+    "updated_at": "2026-09-25T00:00:00Z"
+  },
+  {
+    "schema_version": 1,
+    "id": "movie-sample-005",
+    "type": "movie",
+    "title": "Jalan Pulang",
+    "original_title": "Jalan Pulang",
+    "aliases": [
+      "Jalan Pulang"
+    ],
+    "year": 2023,
+    "release_date": "2023-06-12",
+    "overview": "Jalan Pulang mengikuti perjalanan seorang pencari cerita yang menemui rahsia tidak dijangka. Di antara persahabatan, pilihan dan perubahan, satu penemuan kecil membuka dunia baharu. Ini ialah sinopsis rekaan untuk demonstrasi MovieHub.",
+    "genres": [
+      "drama"
+    ],
+    "poster": {
+      "url": "assets/img/movie-sample-005.svg",
+      "source": "original-fixture"
+    },
+    "backdrop": null,
+    "rating": {
+      "value": 7.9,
+      "scale": 10,
+      "votes": 212,
+      "source": "fixture (rekaan)"
+    },
+    "popularity": 96,
+    "runtime_minutes": 114,
+    "series": null,
+    "status": "released",
+    "countries": [
+      "MY"
+    ],
+    "languages": [
+      "ms"
+    ],
+    "external_ids": {},
+    "trailer": null,
+    "sources": [
+      {
+        "provider": "original-fixture",
+        "provider_id": "5"
+      }
+    ],
+    "updated_at": "2026-09-25T00:00:00Z"
+  },
+  {
+    "schema_version": 1,
+    "id": "movie-sample-006",
+    "type": "movie",
+    "title": "Summer, Slowly",
+    "original_title": "Summer, Slowly",
+    "aliases": [
+      "Musim Panas"
+    ],
+    "year": 2025,
+    "release_date": "2025-06-12",
+    "overview": "Musim Panas mengikuti perjalanan seorang pencari cerita yang menemui rahsia tidak dijangka. Di antara persahabatan, pilihan dan perubahan, satu penemuan kecil membuka dunia baharu. Ini ialah sinopsis rekaan untuk demonstrasi MovieHub.",
+    "genres": [
+      "romance"
+    ],
+    "poster": {
+      "url": "assets/img/movie-sample-006.svg",
+      "source": "original-fixture"
+    },
+    "backdrop": null,
+    "rating": {
+      "value": 8.1,
+      "scale": 10,
+      "votes": 235,
+      "source": "fixture (rekaan)"
+    },
+    "popularity": 95,
+    "runtime_minutes": 115,
+    "series": null,
+    "status": "released",
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "external_ids": {},
+    "trailer": null,
+    "sources": [
+      {
+        "provider": "original-fixture",
+        "provider_id": "6"
+      }
+    ],
+    "updated_at": "2026-09-25T00:00:00Z"
+  },
+  {
+    "schema_version": 1,
+    "id": "tv-sample-007",
+    "type": "tv",
+    "title": "Midnight Department",
+    "original_title": "Midnight Department",
+    "aliases": [
+      "Jabatan Tengah Malam"
+    ],
+    "year": 2026,
+    "release_date": "2026-06-12",
+    "overview": "Jabatan Tengah Malam mengikuti perjalanan seorang pencari cerita yang menemui rahsia tidak dijangka. Di antara persahabatan, pilihan dan perubahan, satu penemuan kecil membuka dunia baharu. Ini ialah sinopsis rekaan untuk demonstrasi MovieHub.",
+    "genres": [
+      "mystery"
+    ],
+    "poster": {
+      "url": "assets/img/tv-sample-007.svg",
+      "source": "original-fixture"
+    },
+    "backdrop": null,
+    "rating": {
+      "value": 8.3,
+      "scale": 10,
+      "votes": 258,
+      "source": "fixture (rekaan)"
+    },
+    "popularity": 94,
+    "runtime_minutes": null,
+    "series": {
+      "seasons": 1,
+      "episodes": 12
+    },
+    "status": "released",
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "external_ids": {},
+    "trailer": null,
+    "sources": [
+      {
+        "provider": "original-fixture",
+        "provider_id": "7"
+      }
+    ],
+    "updated_at": "2026-09-25T00:00:00Z"
+  },
+  {
+    "schema_version": 1,
+    "id": "tv-sample-008",
+    "type": "tv",
+    "title": "Rumah Nombor Tujuh",
+    "original_title": "Rumah Nombor Tujuh",
+    "aliases": [
+      "Rumah Nombor Tujuh"
+    ],
+    "year": 2025,
+    "release_date": "2025-06-12",
+    "overview": "Rumah Nombor Tujuh mengikuti perjalanan seorang pencari cerita yang menemui rahsia tidak dijangka. Di antara persahabatan, pilihan dan perubahan, satu penemuan kecil membuka dunia baharu. Ini ialah sinopsis rekaan untuk demonstrasi MovieHub.",
+    "genres": [
+      "drama"
+    ],
+    "poster": {
+      "url": "assets/img/tv-sample-008.svg",
+      "source": "original-fixture"
+    },
+    "backdrop": null,
+    "rating": {
+      "value": 8.5,
+      "scale": 10,
+      "votes": 281,
+      "source": "fixture (rekaan)"
+    },
+    "popularity": 93,
+    "runtime_minutes": null,
+    "series": {
+      "seasons": 1,
+      "episodes": 12
+    },
+    "status": "released",
+    "countries": [
+      "MY"
+    ],
+    "languages": [
+      "ms"
+    ],
+    "external_ids": {},
+    "trailer": null,
+    "sources": [
+      {
+        "provider": "original-fixture",
+        "provider_id": "8"
+      }
+    ],
+    "updated_at": "2026-09-25T00:00:00Z"
+  },
+  {
+    "schema_version": 1,
+    "id": "tv-sample-009",
+    "type": "tv",
+    "title": "Northern Lights",
+    "original_title": "Northern Lights",
+    "aliases": [
+      "Cahaya Utara"
+    ],
+    "year": 2024,
+    "release_date": "2024-06-12",
+    "overview": "Cahaya Utara mengikuti perjalanan seorang pencari cerita yang menemui rahsia tidak dijangka. Di antara persahabatan, pilihan dan perubahan, satu penemuan kecil membuka dunia baharu. Ini ialah sinopsis rekaan untuk demonstrasi MovieHub.",
+    "genres": [
+      "adventure"
+    ],
+    "poster": {
+      "url": "assets/img/tv-sample-009.svg",
+      "source": "original-fixture"
+    },
+    "backdrop": null,
+    "rating": {
+      "value": 7.1,
+      "scale": 10,
+      "votes": 304,
+      "source": "fixture (rekaan)"
+    },
+    "popularity": 92,
+    "runtime_minutes": null,
+    "series": {
+      "seasons": 1,
+      "episodes": 12
+    },
+    "status": "released",
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "external_ids": {},
+    "trailer": null,
+    "sources": [
+      {
+        "provider": "original-fixture",
+        "provider_id": "9"
+      }
+    ],
+    "updated_at": "2026-09-25T00:00:00Z"
+  },
+  {
+    "schema_version": 1,
+    "id": "tv-sample-010",
+    "type": "tv",
+    "title": "After the Rain",
+    "original_title": "After the Rain",
+    "aliases": [
+      "Selepas Hujan"
+    ],
+    "year": 2025,
+    "release_date": "2025-06-12",
+    "overview": "Selepas Hujan mengikuti perjalanan seorang pencari cerita yang menemui rahsia tidak dijangka. Di antara persahabatan, pilihan dan perubahan, satu penemuan kecil membuka dunia baharu. Ini ialah sinopsis rekaan untuk demonstrasi MovieHub.",
+    "genres": [
+      "romance"
+    ],
+    "poster": {
+      "url": "assets/img/tv-sample-010.svg",
+      "source": "original-fixture"
+    },
+    "backdrop": null,
+    "rating": {
+      "value": 7.3,
+      "scale": 10,
+      "votes": 327,
+      "source": "fixture (rekaan)"
+    },
+    "popularity": 91,
+    "runtime_minutes": null,
+    "series": {
+      "seasons": 1,
+      "episodes": 12
+    },
+    "status": "released",
+    "countries": [],
+    "languages": [
+      "ko"
+    ],
+    "external_ids": {},
+    "trailer": null,
+    "sources": [
+      {
+        "provider": "original-fixture",
+        "provider_id": "10"
+      }
+    ],
+    "updated_at": "2026-09-25T00:00:00Z"
+  },
+  {
+    "schema_version": 1,
+    "id": "anime-sample-011",
+    "type": "anime",
+    "title": "Skybound Letters",
+    "original_title": "Skybound Letters",
+    "aliases": [
+      "Surat ke Langit"
+    ],
+    "year": 2026,
+    "release_date": "2026-06-12",
+    "overview": "Surat ke Langit mengikuti perjalanan seorang pencari cerita yang menemui rahsia tidak dijangka. Di antara persahabatan, pilihan dan perubahan, satu penemuan kecil membuka dunia baharu. Ini ialah sinopsis rekaan untuk demonstrasi MovieHub.",
+    "genres": [
+      "fantasy"
+    ],
+    "poster": {
+      "url": "assets/img/anime-sample-011.svg",
+      "source": "original-fixture"
+    },
+    "backdrop": null,
+    "rating": {
+      "value": 7.5,
+      "scale": 10,
+      "votes": 350,
+      "source": "fixture (rekaan)"
+    },
+    "popularity": 90,
+    "runtime_minutes": null,
+    "series": {
+      "seasons": 1,
+      "episodes": 12
+    },
+    "status": "released",
+    "countries": [],
+    "languages": [
+      "ja"
+    ],
+    "external_ids": {},
+    "trailer": null,
+    "sources": [
+      {
+        "provider": "original-fixture",
+        "provider_id": "11"
+      }
+    ],
+    "updated_at": "2026-09-25T00:00:00Z"
+  },
+  {
+    "schema_version": 1,
+    "id": "anime-sample-012",
+    "type": "anime",
+    "title": "The Quiet Forest",
+    "original_title": "The Quiet Forest",
+    "aliases": [
+      "Hutan Sunyi"
+    ],
+    "year": 2025,
+    "release_date": "2025-06-12",
+    "overview": "Hutan Sunyi mengikuti perjalanan seorang pencari cerita yang menemui rahsia tidak dijangka. Di antara persahabatan, pilihan dan perubahan, satu penemuan kecil membuka dunia baharu. Ini ialah sinopsis rekaan untuk demonstrasi MovieHub.",
+    "genres": [
+      "fantasy"
+    ],
+    "poster": {
+      "url": "assets/img/anime-sample-012.svg",
+      "source": "original-fixture"
+    },
+    "backdrop": null,
+    "rating": {
+      "value": 7.7,
+      "scale": 10,
+      "votes": 373,
+      "source": "fixture (rekaan)"
+    },
+    "popularity": 89,
+    "runtime_minutes": null,
+    "series": {
+      "seasons": 1,
+      "episodes": 12
+    },
+    "status": "released",
+    "countries": [],
+    "languages": [
+      "ja"
+    ],
+    "external_ids": {},
+    "trailer": null,
+    "sources": [
+      {
+        "provider": "original-fixture",
+        "provider_id": "12"
+      }
+    ],
+    "updated_at": "2026-09-25T00:00:00Z"
+  },
+  {
+    "schema_version": 1,
+    "id": "anime-sample-013",
+    "type": "anime",
+    "title": "Orbit Academy",
+    "original_title": "Orbit Academy",
+    "aliases": [
+      "Akademi Orbit"
+    ],
+    "year": 2024,
+    "release_date": "2024-06-12",
+    "overview": "Akademi Orbit mengikuti perjalanan seorang pencari cerita yang menemui rahsia tidak dijangka. Di antara persahabatan, pilihan dan perubahan, satu penemuan kecil membuka dunia baharu. Ini ialah sinopsis rekaan untuk demonstrasi MovieHub.",
+    "genres": [
+      "sci-fi"
+    ],
+    "poster": {
+      "url": "assets/img/anime-sample-013.svg",
+      "source": "original-fixture"
+    },
+    "backdrop": null,
+    "rating": {
+      "value": 7.9,
+      "scale": 10,
+      "votes": 396,
+      "source": "fixture (rekaan)"
+    },
+    "popularity": 88,
+    "runtime_minutes": null,
+    "series": {
+      "seasons": 1,
+      "episodes": 12
+    },
+    "status": "released",
+    "countries": [],
+    "languages": [
+      "ja"
+    ],
+    "external_ids": {},
+    "trailer": null,
+    "sources": [
+      {
+        "provider": "original-fixture",
+        "provider_id": "13"
+      }
+    ],
+    "updated_at": "2026-09-25T00:00:00Z"
+  },
+  {
+    "schema_version": 1,
+    "id": "anime-sample-014",
+    "type": "anime",
+    "title": "Little Lanterns",
+    "original_title": "Little Lanterns",
+    "aliases": [
+      "Tanglung Kecil"
+    ],
+    "year": 2023,
+    "release_date": "2023-06-12",
+    "overview": "Tanglung Kecil mengikuti perjalanan seorang pencari cerita yang menemui rahsia tidak dijangka. Di antara persahabatan, pilihan dan perubahan, satu penemuan kecil membuka dunia baharu. Ini ialah sinopsis rekaan untuk demonstrasi MovieHub.",
+    "genres": [
+      "adventure"
+    ],
+    "poster": {
+      "url": "assets/img/anime-sample-014.svg",
+      "source": "original-fixture"
+    },
+    "backdrop": null,
+    "rating": {
+      "value": 8.1,
+      "scale": 10,
+      "votes": 419,
+      "source": "fixture (rekaan)"
+    },
+    "popularity": 87,
+    "runtime_minutes": null,
+    "series": {
+      "seasons": 1,
+      "episodes": 12
+    },
+    "status": "released",
+    "countries": [],
+    "languages": [
+      "ja"
+    ],
+    "external_ids": {},
+    "trailer": null,
+    "sources": [
+      {
+        "provider": "original-fixture",
+        "provider_id": "14"
+      }
+    ],
+    "updated_at": "2026-09-25T00:00:00Z"
+  },
+  {
+    "schema_version": 1,
+    "id": "anime-sample-015",
+    "type": "anime",
+    "title": "Untitled Journey",
+    "original_title": "Untitled Journey",
+    "aliases": [
+      "Pengembaraan Tanpa Nama"
+    ],
+    "year": 2026,
+    "release_date": "2026-06-12",
+    "overview": "Pengembaraan Tanpa Nama mengikuti perjalanan seorang pencari cerita yang menemui rahsia tidak dijangka. Di antara persahabatan, pilihan dan perubahan, satu penemuan kecil membuka dunia baharu. Ini ialah sinopsis rekaan untuk demonstrasi MovieHub.",
+    "genres": [
+      "adventure"
+    ],
+    "poster": null,
+    "backdrop": null,
+    "rating": null,
+    "popularity": 86,
+    "runtime_minutes": null,
+    "series": {
+      "seasons": 1,
+      "episodes": 12
+    },
+    "status": "released",
+    "countries": [],
+    "languages": [
+      "ja"
+    ],
+    "external_ids": {},
+    "trailer": null,
+    "sources": [
+      {
+        "provider": "original-fixture",
+        "provider_id": "15"
+      }
+    ],
+    "updated_at": "2026-09-25T00:00:00Z"
+  },
+  {
+    "schema_version": 1,
+    "id": "tv-sample-016",
+    "type": "tv",
+    "title": "Unwritten Days",
+    "original_title": "Unwritten Days",
+    "aliases": [
+      "Hari Belum Tertulis"
+    ],
+    "year": 2022,
+    "release_date": "2022-06-12",
+    "overview": "Hari Belum Tertulis mengikuti perjalanan seorang pencari cerita yang menemui rahsia tidak dijangka. Di antara persahabatan, pilihan dan perubahan, satu penemuan kecil membuka dunia baharu. Ini ialah sinopsis rekaan untuk demonstrasi MovieHub.",
+    "genres": [
+      "drama"
+    ],
+    "poster": {
+      "url": "assets/img/tv-sample-016.svg",
+      "source": "original-fixture"
+    },
+    "backdrop": null,
+    "rating": {
+      "value": 8.5,
+      "scale": 10,
+      "votes": 465,
+      "source": "fixture (rekaan)"
+    },
+    "popularity": 85,
+    "runtime_minutes": null,
+    "series": {
+      "seasons": 1,
+      "episodes": 12
+    },
+    "status": "released",
+    "countries": [
+      "MY"
+    ],
+    "languages": [
+      "ms"
+    ],
+    "external_ids": {},
+    "trailer": null,
+    "sources": [
+      {
+        "provider": "original-fixture",
+        "provider_id": "16"
+      }
+    ],
+    "updated_at": "2026-09-25T00:00:00Z"
+  },
+  {
+    "schema_version": 1,
+    "id": "movie-sample-017",
+    "type": "movie",
+    "title": "A Place Between",
+    "original_title": "A Place Between",
+    "aliases": [
+      "Tempat di Antara"
+    ],
+    "year": 2022,
+    "release_date": "2022-06-12",
+    "overview": "Tempat di Antara mengikuti perjalanan seorang pencari cerita yang menemui rahsia tidak dijangka. Di antara persahabatan, pilihan dan perubahan, satu penemuan kecil membuka dunia baharu. Ini ialah sinopsis rekaan untuk demonstrasi MovieHub.",
+    "genres": [
+      "mystery"
+    ],
+    "poster": {
+      "url": "assets/img/movie-sample-017.svg",
+      "source": "original-fixture"
+    },
+    "backdrop": null,
+    "rating": {
+      "value": 7.1,
+      "scale": 10,
+      "votes": 488,
+      "source": "fixture (rekaan)"
+    },
+    "popularity": 84,
+    "runtime_minutes": 126,
+    "series": null,
+    "status": "released",
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "external_ids": {},
+    "trailer": null,
+    "sources": [
+      {
+        "provider": "original-fixture",
+        "provider_id": "17"
+      }
+    ],
+    "updated_at": "2026-09-25T00:00:00Z"
+  },
+  {
+    "schema_version": 1,
+    "id": "anime-sample-018",
+    "type": "anime",
+    "title": "Echoes of Tomorrow",
+    "original_title": "Echoes of Tomorrow",
+    "aliases": [
+      "Gema Esok"
+    ],
+    "year": 2025,
+    "release_date": "2025-06-12",
+    "overview": "Gema Esok mengikuti perjalanan seorang pencari cerita yang menemui rahsia tidak dijangka. Di antara persahabatan, pilihan dan perubahan, satu penemuan kecil membuka dunia baharu. Ini ialah sinopsis rekaan untuk demonstrasi MovieHub.",
+    "genres": [
+      "sci-fi"
+    ],
+    "poster": {
+      "url": "assets/img/anime-sample-018.svg",
+      "source": "original-fixture"
+    },
+    "backdrop": null,
+    "rating": {
+      "value": 7.3,
+      "scale": 10,
+      "votes": 511,
+      "source": "fixture (rekaan)"
+    },
+    "popularity": 83,
+    "runtime_minutes": null,
+    "series": {
+      "seasons": 1,
+      "episodes": 12
+    },
+    "status": "released",
+    "countries": [],
+    "languages": [
+      "ja"
+    ],
+    "external_ids": {},
+    "trailer": null,
+    "sources": [
+      {
+        "provider": "original-fixture",
+        "provider_id": "18"
+      }
+    ],
+    "updated_at": "2026-09-25T00:00:00Z"
+  }
+]
