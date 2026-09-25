@@ -1,8 +1,11 @@
 import {dataset, record, manifest} from './catalog.js';
 import {section} from './components.js';
 import {escapeHTML as e, image, showError, labels} from './utils.js';
+import {getLang, t, countryDisplayName} from './i18n.js';
+
 export async function init(container) {
   const [featured, catalog] = await Promise.all([dataset('featured'), manifest()]);
+  const lang = getLang();
   let heroList = featured.hero_items;
   if (!heroList || !heroList.length) {
     if (featured.heroes && featured.heroes.length) {
@@ -19,7 +22,7 @@ export async function init(container) {
     const heroSection = document.createElement('section');
     heroSection.className = 'hero hero-slider';
     heroSection.setAttribute('aria-roledescription', 'carousel');
-    heroSection.setAttribute('aria-label', 'Pilihan Katalog Terkini');
+    heroSection.setAttribute('aria-label', t('home.hero_eyebrow'));
 
     const track = document.createElement('div');
     track.className = 'hero-track';
@@ -29,7 +32,7 @@ export async function init(container) {
       slide.className = `hero-slide ${idx === 0 ? 'active' : ''}`;
       slide.setAttribute('role', 'group');
       slide.setAttribute('aria-roledescription', 'slide');
-      slide.setAttribute('aria-label', `${idx + 1} daripada ${heroList.length}`);
+      slide.setAttribute('aria-label', t('home.slide_of', {current: idx + 1, total: heroList.length}));
       slide.setAttribute('aria-hidden', idx !== 0);
 
       const art = image(
@@ -42,9 +45,9 @@ export async function init(container) {
 
       const copy = document.createElement('div');
       copy.className = 'hero-copy';
-      const summary = title.overview || 'Temui cerita pilihan anda.';
+      const summary = title.overview || (lang === 'ms' ? 'Temui cerita pilihan anda.' : 'Discover your next favorite story.');
       const typeLabel = labels[title.type] || title.type;
-      copy.innerHTML = `<p class="eyebrow">PILIHAN KATALOG · ${e(typeLabel.toUpperCase())}${catalog.is_demo ? ' / EDISI DEMO' : ''}</p><h1>${e(title.title)}</h1><div class="meta"><span class="rating">★ ${e(title.rating?.value ?? '—')}</span><span>${e(title.year ?? '—')}</span><span class="badge-type">${e(typeLabel)}</span><span>${e((title.genres || []).join(' / '))}</span>${title.runtime_minutes ? `<span>${e(title.runtime_minutes)} min</span>` : ''}</div><p class="overview">${e(summary.length > 220 ? summary.slice(0, 217) + '…' : summary)}</p><a class="btn btn-primary" href="details.html?id=${encodeURIComponent(title.id)}" ${idx !== 0 ? 'tabindex="-1"' : ''}>Terokai cerita <span aria-hidden="true">↗</span></a>`;
+      copy.innerHTML = `<p class="eyebrow">${e(t('home.hero_eyebrow'))} · ${e(typeLabel.toUpperCase())}${catalog.is_demo ? e(t('home.demo_badge')) : ''}</p><h1>${e(title.title)}</h1><div class="meta"><span class="rating">★ ${e(title.rating?.value ?? '—')}</span><span>${e(title.year ?? '—')}</span><span class="badge-type">${e(typeLabel)}</span><span>${e((title.genres || []).join(' / '))}</span>${title.runtime_minutes ? `<span>${e(title.runtime_minutes)} ${lang==='ms'?'min':'mins'}</span>` : ''}</div><p class="overview">${e(summary.length > 220 ? summary.slice(0, 217) + '…' : summary)}</p><a class="btn btn-primary" href="details.html?id=${encodeURIComponent(title.id)}" ${idx !== 0 ? 'tabindex="-1"' : ''}>${e(t('home.explore_btn'))} <span aria-hidden="true">↗</span></a>`;
       slide.append(copy);
       track.append(slide);
     });
@@ -55,13 +58,13 @@ export async function init(container) {
       const prevBtn = document.createElement('button');
       prevBtn.type = 'button';
       prevBtn.className = 'hero-arrow hero-prev';
-      prevBtn.setAttribute('aria-label', 'Slaid sebelumnya');
+      prevBtn.setAttribute('aria-label', t('home.prev_slide'));
       prevBtn.innerHTML = '<span aria-hidden="true">❮</span>';
 
       const nextBtn = document.createElement('button');
       nextBtn.type = 'button';
       nextBtn.className = 'hero-arrow hero-next';
-      nextBtn.setAttribute('aria-label', 'Slaid seterusnya');
+      nextBtn.setAttribute('aria-label', t('home.next_slide'));
       nextBtn.innerHTML = '<span aria-hidden="true">❯</span>';
 
       heroSection.append(prevBtn, nextBtn);
@@ -69,7 +72,7 @@ export async function init(container) {
       const indicators = document.createElement('div');
       indicators.className = 'hero-indicators';
       indicators.setAttribute('role', 'tablist');
-      indicators.setAttribute('aria-label', 'Navigasi slaid');
+      indicators.setAttribute('aria-label', t('home.hero_eyebrow'));
 
       const dots = heroList.map((item, i) => {
         const dot = document.createElement('button');
@@ -77,7 +80,7 @@ export async function init(container) {
         dot.role = 'tab';
         dot.className = `hero-dot ${i === 0 ? 'active' : ''}`;
         dot.setAttribute('aria-selected', i === 0);
-        dot.setAttribute('aria-label', `Slaid ${i + 1}: ${item.title}`);
+        dot.setAttribute('aria-label', `${t('home.slide_n', {n: i + 1})}: ${item.title}`);
         dot.setAttribute('tabindex', i === 0 ? '0' : '-1');
         dot.addEventListener('click', () => {
           goToSlide(i);
@@ -184,12 +187,20 @@ export async function init(container) {
   }
   const intro = document.createElement('div');
   const count = Object.values(catalog.counts).reduce((sum,n) => sum+n,0);
-  intro.innerHTML = `<p class="notice">${catalog.is_demo ? 'Katalog demo · Semua tajuk, sinopsis dan rating ialah data rekaan untuk pembangunan.' : `${count.toLocaleString("ms")} cerita sebenar · Filem, siri TV dan anime · Metadata mengikut sumber asal.`}</p><nav class="category-links" aria-label="Kategori"><a href="browse.html">Semua cerita ↗</a>${Object.entries(catalog.counts).filter(([,n]) => n > 0).map(([type]) => `<a href="browse.html?type=${type}">${e(labels[type])}</a>`).join('')}${['MY','ID','TH'].map((country,i)=>`<a href="browse.html?country=${country}">${['Malaysia','Indonesia','Thailand'][i]}</a>`).join('')}</nav>`;
+  intro.innerHTML = `<p class="notice">${catalog.is_demo ? e(t('home.demo_notice')) : e(t('home.real_notice', {count: count.toLocaleString(lang === 'ms' ? 'ms' : 'en')}))}</p><nav class="category-links" aria-label="${e(t('browse.type'))}"><a href="browse.html">${e(t('home.all_stories'))}</a>${Object.entries(catalog.counts).filter(([,n]) => n > 0).map(([type]) => `<a href="browse.html?type=${type}">${e(labels[type])}</a>`).join('')}${['MY','ID','TH'].map(country=>`<a href="browse.html?country=${country}">${e(countryDisplayName(country))}</a>`).join('')}</nav>`;
   container.append(intro);
   for (const collection of featured.collections) {
     if (!collection.items.length) continue;
     const slot = document.createElement('div'); container.append(slot);
-    try { slot.append(section(collection.title, collection.items, `browse.html?type=${collection.type}${collection.country ? `&country=${collection.country}` : ""}`)); }
+    let title = collection.title;
+    if (collection.type) {
+      const featKey = `home.featured_${collection.type}`;
+      const translated = t(featKey);
+      title = (translated && translated !== featKey) ? translated : (collection.title || featKey);
+    } else if (collection.country) {
+      title = t('home.from_country', {country: countryDisplayName(collection.country)});
+    }
+    try { slot.append(section(title, collection.items, `browse.html?type=${collection.type}${collection.country ? `&country=${collection.country}` : ""}`)); }
     catch (error) { showError(slot, error); }
   }
 }

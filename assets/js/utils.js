@@ -1,6 +1,13 @@
+import {getLang, t, translations} from './i18n.js';
+
 export const escapeHTML = value => String(value ?? '').replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
 export const normalize = value => String(value ?? '').normalize('NFKD').replace(/\p{M}/gu, '').toLocaleLowerCase().replace(/\s+/g, ' ').trim();
-export const labels = {movie:'Filem',tv:'Siri TV',anime:'Anime'};
+export const labels = new Proxy({}, {
+  get(target, prop) {
+    const lang = getLang();
+    return translations[lang]?.[`type.${prop}`] ?? translations['en']?.[`type.${prop}`] ?? prop;
+  }
+});
 export function safeURL(value) {
   if (!value) return null;
   try { const url = new URL(value, document.baseURI); return ['https:', 'http:'].includes(url.protocol) ? url.href : null; } catch { return null; }
@@ -14,6 +21,6 @@ export function image(url, alt, className = '', eager = false) {
 }
 export function showError(container, error) {
   console.error('MovieHub:', error);
-  container.innerHTML = '<section class="empty" role="alert"><h2>Katalog belum dapat dimuatkan.</h2><p>Sila cuba semula sebentar lagi.</p><button class="btn btn-outline-light" type="button">Cuba semula</button></section>';
+  container.innerHTML = `<section class="empty" role="alert"><h2>${escapeHTML(t('error.heading'))}</h2><p>${escapeHTML(t('error.sub'))}</p><button class="btn btn-outline-light" type="button">${escapeHTML(t('error.retry'))}</button></section>`;
   container.querySelector('button').addEventListener('click', () => location.reload());
 }
